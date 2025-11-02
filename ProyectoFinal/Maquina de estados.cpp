@@ -1,4 +1,4 @@
-//Previo 11
+//Practica 
 //Sandra Laparra Miranda
 //Fecha de entrega: 28 de octubre de 2025
 //Número de cuenta: 311243563
