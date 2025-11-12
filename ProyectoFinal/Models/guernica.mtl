@@ -1,0 +1,32 @@
+# Blender 4.5.4 LTS MTL File: 'None'
+# www.blender.org
+
+newmtl beso_pintura
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd guernica.png
+
+newmtl guernica_pintura
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd guernica.png
+
+newmtl tripo_mat_7710de3c-0a03-4506-86dc-1e5036f6c294
+Ns 250.000000
+Ka 1.000000 1.000000 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+map_Kd tripo_image_7710de3c-0a03-4506-86dc-1e5036f6c294_0.jpg

@@ -137,6 +137,7 @@
   <ItemGroup>
     <ClInclude Include="Camera.h" />
     <ClInclude Include="Shader.h" />
+    <ClInclude Include="Texture.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Shader\lamp.frag" />
@@ -145,9 +146,11 @@
     <None Include="Shader\lighting.vs" />
     <None Include="Shader\modelLoading.frag" />
     <None Include="Shader\modelLoading.vs" />
+    <None Include="Shader\SkyBox.frag" />
+    <None Include="Shader\SkyBox.vs" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Maquina de estados.cpp" />
+    <ClCompile Include="ProyectoFinalMuseo.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

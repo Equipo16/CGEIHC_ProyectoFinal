@@ -108,10 +108,17 @@ private:
 			vertex.Position = vector;
 
 			// Normals
-			vector.x = mesh->mNormals[i].x;
-			vector.y = mesh->mNormals[i].y;
-			vector.z = mesh->mNormals[i].z;
-			vertex.Normal = vector;
+			if (mesh->mNormals) // <--- AÑADE ESTA LÍNEA (Comprueba si las normales existen)
+			{
+				vector.x = mesh->mNormals[i].x;
+				vector.y = mesh->mNormals[i].y;
+				vector.z = mesh->mNormals[i].z;
+				vertex.Normal = vector;
+			}
+			else // <--- AÑADE ESTE 'ELSE'
+			{
+				vertex.Normal = glm::vec3(0.0f, 0.0f, 0.0f); // Asigna una normal por defecto (0,0,0)
+			}
 
 			// Texture Coordinates
 			if (mesh->mTextureCoords[0]) // Does the mesh contain texture coordinates?
