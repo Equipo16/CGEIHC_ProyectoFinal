@@ -1,0 +1,32 @@
+# Blender 4.5.3 LTS MTL File: 'ng2.blend'
+# www.blender.org
+
+newmtl tripo_mat_0c920711-28e2-4564-915d-b2546bade2db
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd tripo_image_0c920711-28e2-4564-915d-b2546bade2db_0.jpg
+
+newmtl tripo_mat_9aacf76f-ebe9-424a-98fa-f371577a8614
+Ks 0.500000 0.500000 0.500000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 1.000000
+illum 2
+Pr 0.500000
+Pm 0.000000
+Ps 0.000000
+Pc 0.000000
+Pcr 0.030000
+aniso 0.000000
+anisor 0.000000
+map_Kd tripo_image_9aacf76f-ebe9-424a-98fa-f371577a8614_0.jpg
